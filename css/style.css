@@ -1,0 +1,53 @@
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+h1 {
+  margin: 25px 0;
+  font-family: "Source Sans Pro";
+  font-size: 36px;
+  letter-spacing: 4.5px;
+  text-align: center;
+  text-transform: uppercase;
+  color: rgb(149, 97, 173);
+}
+
+.slider {
+  margin: 0 auto;
+  width: 80%;
+  border: 4px solid rgb(72, 0, 139, 0.75);
+  overflow: hidden;
+}
+
+.slider__line {
+  display: flex;
+  transition-duration: 1s;
+}
+
+img {
+  display: block;
+  max-width: 100%;
+}
+
+.slider__buttons {
+  margin: 25px auto;
+  text-align: center;
+}
+
+.button {
+  padding: 7px 20px;
+  border: 2px solid rgb(72, 0, 139, 0.75);
+  border-radius: 5px;
+  outline: none;
+  transition-duration: 300ms;
+}
+
+.button:hover {
+  background-color: rgb(161, 129, 192);
+}
+
+.button:active {
+  border: none;
+}
